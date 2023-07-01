@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>武煦博的导航栏</title>
+    <style>
+                body{
+                    margin: 0;
+                    height: 100vh;
+                    background-color:#eee;
+                }
+                /* *{
+                    border: 1px solid rgb(3, 3, 3);
+                }  */
+                .flex{
+                    display: flex;
+                }
+                .baise{
+                    background-color:white;
+                }
+                .yinying{
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                }
+                .flex1{
+                    flex : 1;
+                }
+                .column{
+                    flex-direction: column;
+                }
+                .width{
+                   width: 200px; 
+                }
+                .height1{
+                   height: 200px;
+                }
+                .flex3{
+                    flex : 3;
+                }
+                .height3{
+                   height: 150px;
+                }
+                .height4{
+                   height: 300px;
+                }
+                .height2{
+                   height: 100px;
+                }
+                .height5{
+                   height: 160px;
+                }
+                .mg8{
+                    margin: 8px;
+                }
+                .mgr8{
+                    margin-right: 8px;
+                }
+                .mgt8{
+                    margin-top: 8px;
+                }
+                .auto{
+                    overflow: auto;
+                }
+                .abc{
+                    align-items: center;
+                    justify-content: center;
+                    border-bottom: 1px solid #999
+                }
+                .daoHang{
+                    padding: 10px 20px;
+                    border-bottom: 1px solid gray;
+                    font-size: 14px;
+                    color: #666;
+                }
+                 @media (max-width: 600px) {
+        
+        .ceBian {
+          display: none;
+        }
+        .neirong{
+            flex-direction: column;
+        }
+        .shujuqu{
+            flex-direction: column;
+        }
+        .youqu{
+            margin-left: 8px;
+        }
+        .shuju{
+            margin: 0 0 8px;
+            flex: auto;
+        }
+        .white{
+            text-decoration: none;
+            color: #000; 
+        }
+    }
+    </style>
+</head>
+<body class="flex">
+    <!-- 侧边栏 -->
+    <div
+      style="width: 200px; z-index: 3"
+      class="ceBian flex column baise yinying"
+    >
+      <!-- 侧边头像栏 -->
+      <div
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid #999;
+        "
+        class="flex"
+      >
+        <img
+          alt="logo"
+          src="https://i.imgloc.com/2023/06/29/V33VAk.jpeg"
+          width="40px"
+          height="40px"
+        />
+        <div style="margin-left: 10px">武煦博</div>
+      </div>
+      <!-- 导航栏 -->
+      <div class="flex1">
+      <div class="daoHang "><a href="http://www.people.com.cn/"  style="color:black;text-decoration:none;" >导航栏</a></div>
+      <div class="daoHang "><a href="https://www.gmw.cn/"  style="color:black;text-decoration:none;" >导航栏</a></div>
+      <div class="daoHang "><a href="https://www.youth.cn/"  style="color:black;text-decoration:none;" >导航栏</a></div>
+      <div class="daoHang "><a href="https://www.gqt.org.cn/"  style="color:black;text-decoration:none;" >导航栏</a></div>
+      <p>
+        党的十九届五中全会明确提出到2035年建成文化强国的远景目标，这是以习近平同志为核心的党中央基于历史和现实、着眼全局和未来作出的战略决策。
+        </p>
+       
+      </div>
+    </div>
+    <!-- 主区域 -->
+    <div class = "flex1 flex column">
+     <!-- 头部区 -->
+     <div  style="z-index: 1"  class ="height1 baise yinying">
+         <img
+          alt="logo"
+          src="https://img.51miz.com/preview/element/00/01/06/29/E-1062928-AD1EB825.jpg"
+          width="700"
+          height="100%"
+        />
+        </div>
+     <!-- 内容区 -->
+     <div class=" flex1 flex auto neirong">
+        <!-- 左区 --> 
+        <div class="flex3 flex column mg8">
+            <!-- 数据区 -->
+            <div class="flex shujuqu">
+                <!-- 数据块 -->
+                <div class="height2 shuju baise flex3  mgr8 yinying">
+                    <div
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          
+        "
+        class="flex"
+      >
+        <img
+          alt="logo"
+          src="https://ts1.cn.mm.bing.net/th/id/R-C.e7a474f82eccf3b6a1d0b25f87ae31d8?rik=DX7TIgqtHBFqmQ&riu=http%3a%2f%2fres.dps.cn%2fres%2fdecoration%2f13393%2fiqn361536.png&ehk=XnOxyvLXRMKV2Kiwq7eCHTDvN0F%2fNne0a%2f1rbMcLmdM%3d&risl=&pid=ImgRaw&r=0"
+          width="80"
+          height="100%"
+        />
+        <div style="margin-left: 10px"></div>
+      </div>
+                    </div>
+                <div class="height2 shuju baise flex3  mgr8 yinying">
+                     <div
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          
+        "
+        class="flex"
+      >
+        <img
+          alt="logo"
+          src="https://img95.699pic.com/element/40136/6282.png_860.png"
+          width="110"
+          height="90"
+        />
+        
+      </div>
+                    </div>
+                <div class="height2 shuju baise flex3  mgr8 yinying">
+                     <div
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          
+        "
+        class="flex"
+      >
+        <img
+          alt="logo"
+          src="https://img95.699pic.com/element/40148/4407.png_860.png"
+          width="100"
+          height="85"
+        />
+        <div style="margin-left: 10px"></div>
+      </div>
+                    </div>
+                <div class="height2 shuju baise flex3  yinying">
+                     <div
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          
+        "
+        class="flex"
+      >
+        <img
+          alt="logo"
+          src="https://www.just.edu.cn/_upload/article/images/aa/80/4537e5dd475d838a4f4c26264efa/9c1a3b76-16a1-4ce7-9c27-72b17cbb8428.png"
+          width="80"
+          height="100%"
+        />
+        <div style="margin-left: 10px"></div>
+      </div>
+                    </div>
+                
+            </div>
+            <!-- 列表区 -->
+            <div class="flex column">   
+                <!-- 竖向排列 -->
+                <!-- 列表项 -->
+                <div class="height5  baise mgt8 yinying">
+                    <p>
+                        1921年7月23日至8月初，中国共产党第一次全国代表大会在上海（后移至嘉兴南湖）召开，出席大会的13名代表，通过了党的纲领，确定党的名称为“中国共产党”，正式宣告中国共产党的诞生。
+                        从此，中国出现了一个完全新式的、以马克思列宁主义为行动指南的、以实现社会主义和共产主义为奋斗目标的统一的无产阶级政党。
+                        毛泽东同志说：“中国产生了共产党，这是开天辟地的大事变。”</p>
+                    </div>
+                <div class="height5  baise mgt8 yinying">
+                    <p>
+                        共产党的整个历史，是与北伐战争以来中国革命战争的历史不可分割的。”“二十年的中国革命战争过程，证明了一个真理：只有中国共产党，才能最英明地掌握中国革命战争的发展规律；
+                        只有中国共产党，能在一切历史时期中，永远为当时最革命的政治目标而坚决地进行革命战争，反对当时中华民族和人民的主要敌人；
+                        只有中国共产党，能定出和坚持当时最革命的战略方针。</p>
+                    </div>
+                <div class="height5  baise mgt8 yinying">
+                    <p>
+                        中国共产党高举起布尔塞（什）维克的旗帜，跨过了光辉英勇的斗争道路，在短短的一段历史途程上刻画了永古不朽的痕迹”
+                        “还是第一次，在没有取得社会主义革命胜利的国家里，出现了共产党领导的强大的军队，建立了共产党领导的民主的政权。
+                        这是中国革命的特点，也是中国共产党值得自豪的地方。</p></div>
+                <div class="height5  baise mgt8 yinying">
+                    <p>
+                        中国有了人类最进步的革命理论——马列主义；
+                        中国有了最强有力的、群众的、最进步的革命政党——共产党。</p></div>
+                
+            </div>
+        </div>
+        <!-- 右区 -->
+        <div class="youqu flex1 flex column mgr8 mgt8">
+        <!-- 提示区 -->
+        <div class="height3 baise yinying"> 
+              有三条评论
+            </div>
+        <!-- 消息区 -->
+        <div class="height4 baise mgt8 yinying">
+            <p>
+                评论：中国共产党的成立是开天辟地的事
+                </p>
+                <p>
+                评论：中国共产党是中国工人阶级的先锋队是中国人民和中华民族的先锋队。
+                </p>
+                <p>
+                评论：党的最高理想和最终目标是实现共产主义。
+                </p>
+
+            </div>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
